@@ -7,13 +7,23 @@ class Header extends React.Component {
     render() {
         return (
             <header id="header">
-                <div className="inner">
-                    <a href="#" className="image avatar"><img src={avatar} alt="" /></a>
-                    <h1><strong>I am Strata</strong>, a super simple<br />
-                    responsive site template freebie<br />
-                    crafted by <a href="http://html5up.net">HTML5 UP</a>.</h1>
+                <div class="header-inner__wrapper">
+                    <div className="inner">
+
+                        <a href="#" className="image avatar"><img src={avatar} alt="" /></a>
+                        <h1 class="c-header-inner__title">
+                            Hi, I'm Craig Jones
+                        </h1>
+
+                        <p> 
+                            I focus on Wordpress and Java. 
+                            I'm currently transitioning out
+                            of frontend and into fullstack.
+                        </p>
+                        
+                    </div>
+                    <Footer />
                 </div>
-                <Footer />
             </header>
         )
     }
