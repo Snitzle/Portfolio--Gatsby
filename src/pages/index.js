@@ -5,6 +5,8 @@ import Layout from '../components/layout'
 // import Lightbox from 'react-images'
 import Gallery from '../components/Gallery'
 
+import { Link } from "gatsby"
+
 import thumb01 from '../assets/images/thumbs/01.jpg'
 import thumb02 from '../assets/images/thumbs/02.jpg'
 import thumb03 from '../assets/images/thumbs/03.jpg'
@@ -31,6 +33,7 @@ const DEFAULT_IMAGES = [
 class HomeIndex extends React.Component {
 
     render() {
+        
         const siteTitle = "Craig Jones"
         const siteDescription = "Craig Jones Portfolio"
 
@@ -44,6 +47,9 @@ class HomeIndex extends React.Component {
                 <div id="main">
 
                     <section id="two">
+
+                        <Link  to="/project/">Link to project page</Link>
+
                         <h2>Projects</h2>
 
                         <Gallery images={DEFAULT_IMAGES.map(({ id, source, thumbnail, caption, description, link }) => ({
