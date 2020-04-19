@@ -22,7 +22,7 @@ class Header extends React.Component {
                         
                         <ul>
                             <li>
-                                {/* <Link to="/cv" >CV</Link> */}
+                                Check my <Link to="/cv" >CV</Link>
                             </li>
                         </ul>
 
