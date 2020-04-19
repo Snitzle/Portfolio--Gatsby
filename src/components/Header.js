@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'gatsby';
 
 import Footer from './Footer'
 import avatar from '../assets/images/avatar.jpg'
@@ -16,11 +17,15 @@ class Header extends React.Component {
                         </h1>
 
                         <p> 
-                            I focus on Wordpress and Java. 
-                            I'm currently transitioning out
-                            of frontend and into fullstack.
+                            I'm a PHP developer with a passion for Java.
                         </p>
                         
+                        <ul>
+                            <li>
+                                {/* <Link to="/cv" >CV</Link> */}
+                            </li>
+                        </ul>
+
                     </div>
                     <Footer />
                 </div>
