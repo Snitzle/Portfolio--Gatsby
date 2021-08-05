@@ -4,6 +4,8 @@
   "version": "1.0.0",
   "author": "Hunter Chang",
   "dependencies": {
+    "@popperjs/core": "^2.5.4",
+    "bootstrap": "^5.1.0",
     "gatsby": "^2.20.25",
     "gatsby-plugin-manifest": "^2.0.24",
     "gatsby-plugin-offline": "^2.0.25",
@@ -11,7 +13,9 @@
     "gatsby-plugin-sass": "^2.0.11",
     "gatsby-source-filesystem": "^2.2.4",
     "gatsby-transformer-remark": "^2.7.3",
+    "jquery": "^3.6.0",
     "node-sass": "^4.13.1",
+    "popper.js": "^1.16.1",
     "react": "^16.8.5",
     "react-dom": "^16.8.5",
     "react-helmet": "^5.2.0",

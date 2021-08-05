@@ -9,8 +9,14 @@ class Template extends React.Component {
 
         return (
             <div>
-                <Header />
-                {children}
+                <div className="container">
+                    <div className="row">
+                        <Header />
+                        <div className="col-12 col-md-8">
+                        {children}
+                        </div>
+                    </div>
+                </div>
             </div>
         )
     }
