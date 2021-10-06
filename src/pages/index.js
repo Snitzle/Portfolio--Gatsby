@@ -35,10 +35,11 @@ class HomeIndex extends React.Component {
     render() {
         
         const siteTitle = "Craig Jones"
-        const siteDescription = "Craig Jones Portfolio"
+        const siteDescription = "Craig Jones Web Developer Portfolio"
 
         return (
             <Layout>
+
                 <Helmet>
                         <title>{siteTitle}</title>
                         <meta name="description" content={siteDescription} />
@@ -48,7 +49,7 @@ class HomeIndex extends React.Component {
 
                     <section id="two">
 
-                        <Link  to="/project/">Link to project page</Link>
+                        <Link to="/project/">Link to project page</Link>
 
                         <h2>Projects</h2>
 

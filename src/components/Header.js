@@ -7,15 +7,14 @@ import avatar from '../assets/images/avatar.jpg'
 class Header extends React.Component {
     render() {
         return (
-            <div className="col-12 col-md-4">
+            <div className="col-12 col-lg-3">
                 <header id="header">
-                    <div class="header-inner__wrapper">
+                    <div className="header-inner__wrapper px-0 mx-md-0">
                         <div className="inner">
 
-                            <a href="#" className="image avatar"><img src={avatar} alt="" /></a>
-                            <h1 class="c-header-inner__title mb-3 text-black">
-                                Hi, I'm Craig Jones
-                            </h1>
+                            <a href="#" className="image avatar p">
+                                <img className="mb-3" src={avatar} alt="" />
+                            </a>
 
                             <p> 
                                 I'm a Full Stack Developer living in Lincoln, England. I have specialised in WordPress and Magento, creating all kind of websites utilizing PHP and modern Front End practices.
